@@ -1,0 +1,37 @@
+/* RF Dewi */
+@font-face {
+    font-family: 'RF Dewi';
+    src: url('RFDewi-Semibold.eot');
+    src: local('RF Dewi Semibold'), local('RFDewi-Semibold'),
+        url('RFDewi-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('RFDewi-Semibold.woff2') format('woff2'),
+        url('RFDewi-Semibold.woff') format('woff'),
+        url('RFDewi-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RF Dewi';
+    src: url('RFDewi-Regular.eot');
+    src: local('RF Dewi Regular'), local('RFDewi-Regular'),
+        url('RFDewi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RFDewi-Regular.woff2') format('woff2'),
+        url('RFDewi-Regular.woff') format('woff'),
+        url('RFDewi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Zen Dots */
+@font-face {
+    font-family: 'Zen Dots';
+    src: url('ZenDots-Regular.eot');
+    src: local('Zen Dots Regular'), local('ZenDots-Regular'),
+        url('ZenDots-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ZenDots-Regular.woff2') format('woff2'),
+        url('ZenDots-Regular.woff') format('woff'),
+        url('ZenDots-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

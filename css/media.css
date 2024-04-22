@@ -1,0 +1,2330 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@charset "UTF-8";
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1699px) {
+  .triangle-top-left-big:before {
+    border-top: 200px solid #fff;
+    border-right: 200px solid transparent;
+  }
+  .triangle-top-right-big:before {
+    border-top: 200px solid #fff; 
+    border-left: 200px solid transparent;
+  }
+}
+
+@media only screen and (max-width : 1430px) {
+  .built__sl .swiper-button-prev {
+    left: 15px;
+  }
+  .built__sl .swiper-button-next {
+    right: 15px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1339px) {
+  h1, .title__h1 {
+    font-size: 62px;
+  }
+  h2, .title__h2 {
+    font-size: 54px;
+  }
+  h3, .title__h3 {
+    font-size: 32px;
+  }
+  h4, .title__h4 {
+    font-size: 26px;
+  }
+  .title__sub {
+    font-size: 24px;
+  }
+  .triangle-top-left-big:before {
+    border-top: 150px solid #fff;
+    border-right: 120px solid transparent;
+  }
+  .triangle-top-right-big:before {
+    border-top: 150px solid #fff; 
+    border-left: 120px solid transparent;
+  }
+  .bg-triangle__layer {
+    left: -233px;
+  }
+  .bg-triangle__layer--big {
+    width: 900px;
+  }
+  .bg-triangle__layer--small {
+    width: 900px;
+  }
+  .tabs__nav-item svg {
+    margin-right: 10px;
+    width: 15px;height: 15px;
+  }
+  .relations__tel a {
+    font-size: 18px;
+  }
+  .nav, .navbar__info {
+    max-width: 690px;
+  }
+  .nav li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .nav a svg {
+    width: 18px;height: 18px;
+  }
+  .nav__list--primary {
+    max-width: 420px;
+    padding-right: 35px;
+  }
+  .nav__list--primary a {
+    font-size: 20px;
+  }
+  .nav__list--second a {
+    font-size: 14px;
+  }
+  .navbar__info {
+    margin-top: 100px;
+  }
+  .navbar__btn {
+    margin-left: 40px;
+  }
+  .hero .title {
+    max-width: 530px;
+  }
+  .logotype {
+    top: -9px;
+    max-width: 300px;
+  }
+  .hero__item {
+    height: 670px;
+  }
+  .advantages {
+    padding-top: 100px;
+  }
+  .projects {
+    padding: 60px 0;
+    margin-top: 100px;
+  }
+  .projects__slide {
+    width: 500px;
+  }
+  .mortgage__box {
+    max-width: 580px;
+  }
+  .mortgage .title span img {
+    top: 4px;
+    width: 130px;
+    margin-left: 40px;
+  }
+  .mortgage__img {
+    top: 103px;
+  }
+  .about {
+    padding-top: 100px;
+  }
+  .questions {
+    margin-top: 80px;
+    min-height: 520px;
+  }
+  .questions .bg-triangle__layer {
+    left: -250px;
+  }
+  .questions__box {
+    max-width: 580px;
+    padding: 125px 0 90px;
+  }
+  .questions__subtitle {
+    font-size: 18px;
+  }
+  .questions__cont a {
+    font-size: 20px;
+  }
+  .questions__img {
+    top: 69px;
+  }
+  .footer {
+    background: #F5F5F5;
+    padding: 65px 0 20px;
+  }
+  .modal__box {
+    max-width: 970px;
+  }
+  .close--modal {
+    top: 100px;
+    right: 20px;
+  }
+  .modal__img {
+    height: 196px;
+  }
+  .modal__content {
+    padding: 40px 30px;
+  }
+  .finishing {
+    padding-top: 0;
+  }
+  .finishing__head-left {
+    max-width: 350px;
+  }
+  .finishing__head-item span {
+    font-size: 14px;
+  }
+  .finishing__head-item p {
+    font-size: 18px;
+  }
+  .finishing__right {
+    max-width: 500px;
+  }
+  .finishing__tabs-item {
+    font-size: 14px;
+  }
+  .planning {
+    margin-top: 90px;
+    padding: 80px 0 100px;
+  }
+  .planning__head {
+    margin-bottom: 50px;
+  }
+  .planning__possibility {
+    top: 7px;
+    font-size: 16px;
+  }
+  .planning__possibility svg {
+    width: 20px;height: 20px;
+  }
+  .planning__info {
+    margin-left: 40px;
+  }
+  .gellery .tabs__nav-item {
+    height: 44px;
+    font-size: 14px;
+    min-width: 150px;
+  }
+  .gellery__item {
+    width: 870px;height: 600px;
+  }
+  .gellery__arrows .swiper-button-prev {
+    left: 0;
+  }
+  .gellery__arrows .swiper-button-next {
+    right: 0;
+  }
+  .cost {
+    margin-top: 85px;
+    padding: 70px 0 85px;
+  }
+  .engineering-nav .tabs__nav-item {
+    font-size: 16px;
+    max-width: 280px;
+  }
+  .know {
+    padding-top: 80px;
+  }
+  .built {
+    margin-top: 100px;
+    padding: 65px 0 80px;
+  }
+  .built .title {
+    margin-bottom: 50px;
+  }
+  .built__item {
+    width: 460px;height: 280px;
+  }
+  .built__item:before {
+    top: 15px;left: 15px;
+    width: 200px;height: 32px;
+  }
+  .upping__inner {
+    height: 44px;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .upping__inner i {
+    width: 20px;height: 20px;
+  }
+  .lending .title .upping {
+    bottom: 4px;
+  }
+  .catalog {
+    margin-top: 90px;
+  }
+  .partners {
+    padding: 80px 0;
+  }
+  .partners .row [class*='col-'] {
+    padding-top: 62px;
+  }
+  .partners__roof {
+    margin-top: .5px;
+  }
+  .partners__item {
+    padding: 20px;
+  }
+  .partners__item .paragraph {
+    font-size: 16px;
+  }
+  .vantages__img {
+    height: 500px;
+    margin-top: 45px;
+  }
+  .vantages__img svg {
+    left: -210px;
+    width: 900px;height: 103px;
+  }
+  .faq {
+    padding: 80px 0;
+    margin-top: 85px;
+  }
+  .story {
+    padding: 85px 0;
+  }
+  .story__item {
+    padding: 30px 0;
+  }
+  .story__date {
+    font-size: 60px;
+  }
+  .policy {
+    padding-bottom: 90px;
+  }
+  .p-404__right {
+    max-width: 500px;
+  }
+  .stages {
+    padding-top: 90px;
+  }
+  .construction {
+    padding: 80px 0;
+    margin-top: 90px;
+  }
+  .exhibition__subtitle {
+    font-size: 22px;
+  }
+  .exposition-card {
+    padding: 90px 0;
+    margin-top: 90px;
+  }
+  .solutions {
+    padding-top: 90px;
+  }
+  .exposition-info {
+    padding: 90px 0;
+  }
+
+  .lending .logos {
+    gap: 30px 0;
+  }
+}
+
+@media only screen and (max-width : 1199px) {
+  h2, .title__h2 {
+    font-size: 42px;
+  }
+  h3, .title__h3 {
+    font-size: 26px;
+  }
+  h4, .title__h4 {
+    font-size: 22px;
+  }
+  .title h3, .title__h3 {
+    line-height: 1.1;
+  }
+  .title__sub {
+    font-size: 20px;
+  }
+  .btn {
+    height: 50px;
+    padding: 0 25px;
+    font-size: 14px;
+  }
+  .btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .btn--round {
+    width: 50px;
+  }
+  .swiper-button-arrow {
+    width: 70px;height: 35px;
+  }
+  .swiper-button-arrow svg {
+    width: 9px;height: 15px;
+  }
+  .triangle-top-left-big:before {
+    border-top: 65px solid #fff;
+    border-right: 65px solid transparent;
+  }
+  .triangle-top-right-big:before {
+    border-top: 65px solid #fff; 
+    border-left: 65px solid transparent;
+  }
+  .swiper-pagination-bullet {
+    width: 35px;height: 2px;
+  }
+  .bg-triangle__layer {
+    left: -198px;
+  }
+  .bg-triangle__layer--big {
+    width: 750px;
+  }
+  .bg-triangle__layer--small {
+    width: 770px;
+  }
+  .form__field {
+    margin-bottom: 10px;
+  }
+  .form__name,
+  .form__field input, .form__field textarea {
+    font-size: 12px;
+  }
+  .form__field input {
+    height: 50px;
+    padding-top: 12px;
+    line-height: 50px;
+  }
+  .form__field input:focus ~ .form__name,
+  .form__field input:focus ~ .form__name,
+  .form__field input:valid ~ .form__name {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .header {
+    padding: 10px 0;
+  }
+  .relations__tel a {
+    font-size: 20px;
+  }
+  .header__btn-search svg,
+  .phone svg {
+    width: 15px;height: 15px;
+  }
+  .navbar__head {
+    padding: 20px 0;
+  }
+  .nav, .navbar__info {
+    max-width: 630px;
+  }
+  .nav__list--primary {
+    max-width: 350px;
+  }
+  .nav__list--primary a {
+    font-size: 18px;
+  }
+  .nav__list--second li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .navbar__info {
+    margin-top: 60px;
+  }
+  .navbar__info .relations__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .navbar__btn {
+    margin-left: 0;
+  }
+  .navbar__img {
+    width: 560px;
+    right: -280px;
+  }
+  .navbar__img:before {
+    border-top-width: 100px;
+    border-right-width: 80px;
+  }
+  .hero__arrows {
+    height: 35px;
+  }
+  .information__item {
+    padding: 24px 15px 15px;
+  }
+  .information__item span {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  .information__item p {
+    margin-top: 5px;
+    line-height: 1.6;
+  }
+  .advantages {
+    padding-top: 80px;
+  }
+  .advantages__inner {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .projects {
+    margin-top: 80px;
+  }
+  .projects__heading {
+    margin-bottom: 40px;
+  }
+  .projects__arrows {
+    width: 155px;height: 35px;
+  }
+  .projects__slide {
+    width: 400px;
+  }
+  .projects__item {
+    background: #fff;
+    -webkit-box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+  }
+  .percent {
+    height: 32px;
+    padding: 0 8px;
+    font-size: 12px;
+  }
+  .percent i {
+    margin-right: 5px;
+    width: 15px;height: 15px;
+  }
+  .projects__img {
+    height: 220px;
+  }
+  .projects__content {
+    padding: 15px 10px;
+  }
+  .projects__head {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  .projects__name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .projects__price,
+  .projects__price span {
+    font-size: 12px;
+  }
+  .projects__price {
+    height: 23px;
+    padding: 0 6px;
+  }
+  .projects__price span {
+    top: 0;
+  }
+  .projects__body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 15px 0;
+  }
+  .projects__info {
+    width: 48%;
+  }
+  .projects__btn {
+    margin-top: 15px;
+  }
+  .projects__btn .btn {
+    color: #213B48;
+    background: #FED269;
+  }
+  .projects__inner .swiper-pagination {
+    padding: 0 10px 10px;
+  }
+  .projects__inner .swiper-pagination-bullet {
+    margin: 0 3px !important;
+  }
+  .projects__inner .swiper-button-arrow {
+    width: 44px;height: 26px;
+  }
+  .projects__inner .swiper-button-arrow svg {
+    width: 7px;height: 11px;
+  }
+  .projects__inner .swiper-button-prev {
+    left: 10px;
+  }
+  .projects__inner .swiper-button-next {
+    right: 10px;
+  }
+  .mortgage__box {
+    max-width: 500px;
+  }
+  .mortgage .percent {
+    height: 44px;
+    padding: 0 12px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .mortgage .percent i {
+    margin-right: 10px;
+    width: 20px;height: 20px;
+  }
+  .mortgage .title span img {
+    top: 3px;
+    width: 110px;
+    margin-left: 22px;
+  }
+  .mortgage__img {
+    top: 86px;
+  }
+  .about {
+    padding-top: 80px;
+  }
+  .questions {
+    margin-top: 60px;
+    min-height: 485px;
+  }
+  .questions .bg-triangle__layer {
+    left: -213px;
+  }
+  .questions__box {
+    max-width: 510px;
+  }
+  .questions__subtitle {
+    font-size: 16px;
+  }
+  .questions__cont a {
+    font-size: 18px;
+  }
+  .questions__cont a i {
+    width: 20px;height: 20px;
+  }
+  .questions__cont:not(:last-child) {
+    margin-right: 50px;
+  }
+  .questions__btns .btn {
+    max-width: 230px;
+  }
+  .questions__img {
+    top: 59px;
+  }
+  .modal__content .title {
+    margin-bottom: 25px;
+  }
+  .form__policy {
+    font-size: 12px;
+  }
+  .modal--success .paragraph {
+    line-height: 1.6;
+  }
+  .finishing__head-right {
+    max-width: 400px;
+  }
+  .finishing__sl {
+    padding-top: 20px;
+  }
+  .finishing__right {
+    max-width: 100%;
+    margin-top: 15px;
+  }
+  .finishing__price {
+    margin-top: 15px;
+  }
+  .finishing__price-sum {
+    font-size: 20px;
+  }
+  .finishing__price .btn {
+    margin-left: 30px;
+  }
+  .planning {
+    margin-top: 75px;
+    padding: 65px 0 80px;
+  }
+  .planning .tabs__nav--big .tabs__nav-item {
+    max-width: 260px;
+  }
+  .gellery__arrows .swiper-button-prev {
+    left: 60px;
+  }
+  .gellery__arrows .swiper-button-next {
+    right: 60px;
+  }
+  .accordion > li {
+    padding: 15px 0;
+  }
+  .accordion > li:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .accordion__header {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .accordion__header:before {
+    background-size: 15px;
+    width: 35px;height: 35px;
+  }
+  .cost__right {
+    padding: 15px;
+    margin-top: 15px;
+    text-align: left;
+  }
+  .cost__title {
+    font-size: 14px;
+  }
+  .cost__sum {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .cost__text {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  .cost__subtext {
+    font-size: 14px;
+    margin-top: 15px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cost__subtext i {
+    width: 15px;height: 15px;
+  }
+  .cost__btn {
+    margin-top: 15px;
+  }
+  .catalog {
+    padding: 70px 0;
+    margin-top: 70px;
+  }
+  .catalog__btn {
+    margin-top: 30px;
+  }
+  .catalog__btn .btn {
+    max-width: 280px;
+  }
+  .partners .row [class*='col-'] {
+    padding-top: 51px;
+  }
+  .partners__logo {
+    width: 200px;height: 42px;
+  }
+  .partners__text {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .partners__text span {
+    top: 0;
+    font-size: 18px;
+  }
+  .partners__info-item {
+    padding: 25px 0;
+  }
+  .partners__info-item i {
+    width: 25px;height: 25px;
+  }
+  .partners__info-left p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .partners__info-right {
+    font-size: 14px;
+  }
+  .partners__info-right span {
+    font-size: 18px;
+  }
+  .partners__item .paragraph {
+    font-size: 14px;
+    margin: 10px 0 25px;
+  }
+  .partners__btns .btn:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .vantages .title {
+    margin-bottom: 0;
+  }
+  .vantages__item {
+    padding-right: 0;
+  }
+  .faq {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .faq__btn {
+    margin-top: 25px;
+  }
+  .story {
+    padding: 60px 0;
+  }
+  .story__date {
+    font-size: 40px;
+  }
+  .p-projects__row [class*='col-'] {
+    margin-bottom: 25px;
+  }
+  .more {
+    margin-top: 20px;
+  }
+  .pagination {
+    margin-top: 25px;
+  }
+  .pagination__list {
+    gap: 10px;
+  }
+  .pagination__item--arrow a {
+    width: 70px;height: 35px;
+  }
+  .pagination__item--arrow a svg {
+    width: 9px;height: 15px;
+  }
+  .contacts .title {
+    margin-bottom: 35px;
+  }
+  .contacts__item {
+    margin-bottom: 25px;
+  }
+  .contacts .footer__cont {
+    margin-top: 10px;
+  }
+  .contacts__btn {
+    margin-top: 35px;
+  }
+  .exposition-card {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .exposition-card .row > [class*='col-']:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .solutions {
+    padding-top: 60px;
+  }
+  .exposition-info {
+    padding: 60px 0;
+  }
+  .exposition-info__title {
+    font-size: 22px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+  h1, .title__h1 {
+    font-size: 48px;
+  }
+  h2, .title__h2 {
+    font-size: 32px;
+  }
+  .title {
+    margin-bottom: 25px;
+  }
+  .title__sub {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  .paragraph p+p {
+    margin-top: 25px;
+  }
+  .triangle-top-down-small:before {
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 10px solid #fff;
+  }
+  .bg-triangle__layer {
+    overflow: hidden;
+    left: -150px !important;
+  }
+  .bg-triangle__layer:after {
+    display: none;
+  }
+  .bg-triangle__layer {
+    width: 1000px;
+  }
+  .bg-triangle__box {
+    max-width: 100%;
+    padding: 88px 0 45px;
+  }
+  .bg-triangle__img {
+    width: 100%;
+    position: static;
+    padding-bottom: 78%;
+  }
+  .form__name {
+    left: 25px;
+  }
+  .form__field input, .form__field textarea {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .breadcrumb {
+    padding: 10px 0 45px;
+  }
+  .breadcrumb__item {
+    font-size: 12px;
+  }
+  .tabs__nav--big .tabs__nav-item {
+    height: 42px;
+    font-size: 14px;
+  }
+  .tabs__body {
+    margin-top: 15px;
+  }
+  .check__item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .check__mark {
+    width: 20px;height: 20px;
+  }
+  .check__mark:before {
+    background-size: 12px;
+  }
+  .check__text {
+    margin-left: 10px;
+  }
+  .check__name {
+    font-size: 16px;
+  }
+  .check__txt {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .check__item--radio .check__mark::before {
+    border-width: 2px;
+  }
+  .question {
+    margin-left: 5px;
+  }
+  .list-default li {
+    font-size: 14px;
+    padding: 15px 0;
+    line-height: 1.6;
+  }
+  .list-default--number span {
+    max-width: 20px;
+  }
+  .zoom-icon {
+    width: 40px;height: 40px;
+  }
+  .header {
+    padding: 10px 0 14px;
+  }
+  .header .container {
+    position: relative;
+  }
+  .logo {
+    max-width: 123px;
+    margin-right: auto;
+  }
+  .toggle {
+    position: absolute;
+    top: 50%;right: 15px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .toggle__nav {
+    border-radius: 50%;
+  }
+  .toggle__nav span {
+    width: 16px;
+  }
+  .toggle__nav span+span {
+    margin-top: 6px;
+  }
+  .toggle__name {
+    display: none;
+  }
+  .header .relations {
+    margin-right: 55px;
+  }
+  .header .relations .relations__item:not(:last-child) {
+    display: none;
+  }
+  .toggle__nav,
+  .header__btn-search,
+  .relations__item .btn {
+    width: 40px !important;height: 40px;
+  }
+  .header__btn-search {
+    margin: 0 5px;
+  }
+  .navbar {
+    bottom: 0;
+  }
+  .navbar__head {
+    padding: 15px 0;
+    border-bottom-color: #F5F5F5;
+  }
+  .navbar__logo {
+    font-size: 8px;
+    line-height: 1.2;
+    max-width: 330px;
+    margin-right: auto;
+  }
+  .navbar__logo img {
+    max-width: 124px;
+  }
+  .navbar__logo span {
+    top: -1px;
+    margin-left: 12px;
+  }
+  .close--navbar {
+    position: static;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: #FED269;
+    width: 40px;height: 40px;
+  }
+  .close--navbar svg {
+    fill: #213B48;
+    width: 15px;height: 15px;
+  }
+  .navbar__body,
+  .nav,
+  .nav__list--primary {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  .navbar__body {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .nav, .navbar__info, .nav__list--primary {
+    max-width: 100%;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav__list--primary {
+    line-height: 1.6;
+    padding-right: 0;
+  }
+  .nav__list--second {
+    line-height: 1.6;
+    margin-top: 50px;
+  }
+  .navbar__info {
+    margin-top: 30px;
+  }
+  .navbar__btn {
+    width: 100%;
+  }
+  .hero .title {
+    max-width: 390px;
+  }
+  .logotype {
+    top: -8px;
+    max-width: 240px;
+  }
+  .hero {
+    padding-top: 30px;
+  }
+  .hero__item {
+    height: 520px;
+  }
+  .hero__arrows {
+    top: auto;bottom: 30px;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .information {
+    padding-top: 10px;
+  }
+  .information__row {
+    gap: 10px 0;
+  }
+  .information__item:before {
+    left: 12px;
+  }
+  .advantages {
+    padding-top: 60px;
+  }
+  .advantages__item {
+    min-height: 232px;
+    padding: 35px 15px 25px;
+  }
+  .advantages__item i {
+    margin-bottom: 15px;
+    width: 35px;height: 35px;
+  }
+  .advantages__item span {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .advantages__item p {
+    line-height: 1.6;
+  }
+  .projects {
+    margin-top: 60px;
+  }
+  .projects .container {
+    position: relative;
+    padding-bottom: 60px;
+  }
+  .projects__heading {
+    margin-bottom: 25px;
+  }
+  .projects__arrows {
+    width: initial;
+    margin-left: 0;
+    position: absolute;
+    left: 15px;right: 15px;bottom: 0;
+  }
+  .projects__slide {
+    width: 340px;
+  }
+  .logos {
+    margin-bottom: 20px;
+  }
+  .logos__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .mortgage__subtext {
+    margin-top: 25px;
+  }
+  .about {
+    padding-top: 60px;
+  }
+  .about .title {
+    margin-bottom: 10px;
+  }
+  .about .title h2 {
+    font-size: 36px;
+  }
+  .about__text {
+    max-width: 100%;
+  }
+  .about__text--right {
+    margin-top: 25px;
+  }
+  .about__text--right .paragraph {
+    font-weight: normal;
+  }
+  .questions__subtitle {
+    line-height: 1.6;
+  }
+  .questions__btns {
+    margin-top: 25px;
+  }
+  .footer {
+    padding-top: 45px;
+  }
+  .footer__relations {
+    margin-top: 25px;
+  }
+  .footer__relations .relations__tel {
+    line-height: 1.62;
+  }
+  .footer__relations .relations__tel a {
+    font-size: 16px;
+  }
+  .footer__relations .relations__address {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .footer__relations .relations__address i {
+    margin-right: 4px;
+    width: 15px;height: 15px;
+  }
+  .footer__bell {
+    margin-top: 15px;
+  }
+  .footer__email {
+    margin-top: 25px;
+  }
+  .footer__email a {
+    font-size: 16px;
+  }
+  .footer__group {
+    font-size: 14px;
+    margin-top: 45px;
+  }
+  .footer__nav {
+    width: 47%;
+    line-height: 1.6;
+  }
+  .footer__nav li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .footer__nav a {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer__nav a i {
+    top: 3px;
+    width: 15px;height: 15px;
+  }
+  .footer__bott {
+    margin-top: 45px;
+    padding-top: 25px;
+  }
+  .footer__cont-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__cont-item:not(:last-child) {
+    margin-right: 22px;
+  }
+  .footer__cont-qr {
+    margin: 0;
+    padding: 3px;
+    margin-right: 10px;
+    width: 40px;height: 40px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .footer__cont-name {
+    margin-top: 0;
+    line-height: 1.6;
+  }
+  .footer__cont-name a {
+    font-size: 12px;
+  }
+  .footer__cont-name i {
+    width: 15px;height: 15px;
+  }
+  .copyright {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 25px;
+  }
+  .modal__box {
+    max-width: 290px;
+  }
+  .close--modal {
+    top: 68px;
+    width: 25px;height: 25px;
+  }
+  .modal__img {
+    height: 278px;
+  }
+  .modal__content {
+    padding: 45px 15px;
+  }
+  .form__policy {
+    font-size: 10px;
+    margin: 5px 0 0;
+  }
+  .finishing__head-right {
+    max-width: 500px;
+    margin: 20px 0 0;
+  }
+  .finishing__sl .hero__arrows {
+    top: 50%;bottom: auto;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .finishing__price {
+    padding: 15px;
+  }
+  .finishing__price-name {
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  .finishing__price-group,
+  .finishing__price .btn {
+    margin-top: 25px;
+  }
+  .finishing__price-group {
+    text-align: right;
+  }
+  .finishing__price-sum {
+    font-size: 18px;
+    padding: 5px 6px;
+    position: absolute;
+    top: -35px;right: 15px;
+  }
+  .finishing__price .btn {
+    margin-left: 0;
+  }
+  .planning {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .planning .title {
+    margin-right: 0;
+  }
+  .planning__head {
+    margin-bottom: 15px;
+  }
+  .planning__possibility {
+    top: 0;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .planning__possibility svg {
+    margin-right: 10px;
+    width: 15px;height: 15px;
+  }
+  .planning .tabs__nav--big .tabs__nav-item {
+    max-width: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .planning__tabs-body {
+    padding: 15px;
+  }
+  .planning__tabs-body .tabs__nav-item {
+    height: 28px;
+    font-size: 12px;
+  }
+  .planning__info {
+    margin: 25px 0 0;
+  }
+  .planning__info-title {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .planning__text {
+    padding-left: 30px;
+  }
+  .planning__text i {
+    width: 20px;height: 20px;
+  }
+  .planning__info-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  .planning__info-link {
+    font-size: 12px;
+  }
+  .planning__tabs-body-inner {
+    margin-top: 25px;
+  }
+  .planning__body {
+    position: relative;
+    padding-bottom: 65px;
+  }
+  .planning__btn {
+    margin-top: 0;
+    position: absolute;
+    left: 0;right: 0;bottom: 0;
+  }
+  .gellery .tabs__nav {
+    top: 25px;
+  }
+  .gellery__item {
+    width: 600px;
+    height: 450px;
+  }
+  .cost {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .cost .title {
+    margin-bottom: 30px;
+  }
+  .cost__sum {
+    margin-right: 25px;
+  }
+  .accordion__body .tabs__item {
+    padding-top: 25px;
+  }
+  .engineering-nav .tabs__nav-item {
+    max-width: 100%;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    min-height: initial;
+    height: inherit !important;
+  }
+  .engineering-nav .tabs__nav-item:not(:last-child) {
+    margin: 0 0 15px;
+  }
+  .engineering-nav .tabs__nav-item p {
+    font-size: 12px;
+  }
+  .accordion__body .tabs__body,
+  .engineering .check {
+    margin-top: 25px;
+  }
+  .cost .check__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cost .check__text {
+    width: calc(100% - 30px);
+  }
+  .cost__price {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .know {
+    padding-top: 60px;
+  }
+  .built {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .built .title {
+    margin-bottom: 45px;
+  }
+  .built__sl {
+    padding-bottom: 60px;
+  }
+  .built__item {
+    width: 240px;height: 180px;
+  }
+  .built__item:before {
+    display: none;
+  }
+  .built__sl .swiper-button-arrow {
+    top: auto;bottom: 0;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .built__sl .swiper-button-next {
+    right: 0;
+  }
+  .built__sl .swiper-button-prev {
+    left: 0;
+  }
+  .built__btn {
+    margin-top: 25px;
+  }
+  .upping__inner {
+    height: 25px;
+    padding: 0 8px;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .upping__inner i {
+    margin-right: 5px;
+    width: 15px;height: 15px;
+  }
+  .lending .title {
+    margin-bottom: 20px;
+  }
+  .lending .title .upping {
+    position: static;
+  }
+  .lending .paragraph {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .lending .row {
+    position: relative;
+    padding-bottom: 70px;
+  }
+  .lending .row [class*='col-'] {
+    position: static;
+  }
+  .lending__btn {
+    position: absolute;
+    bottom: 0;left: 15px;right: 15px;
+  }
+  .lending__item {
+    font-size: 14px;
+    min-height: 90px;
+    text-align: left;
+    position: relative;
+    padding: 20px 20px 20px 70px;
+  }
+  .lending__item:before {
+    left: 33px;
+  }
+  .lending__inner {
+    width: 100%;
+  }
+  .lending__item i {
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;left: 15px;
+    width: 40px;height: 40px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .lending__text span {
+    font-size: 18px;
+  }
+  .catalog {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .catalog .title {
+    margin-bottom: 20px;
+  }
+  .catalog .title p {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+  .partners {
+    padding: 60px 0;
+  }
+  .partners .row [class*='col-'] {
+    padding-top: 38px;
+  }
+  .partners__btns .btn {
+    width: 100% !important;
+  }
+  .vantages__img svg {
+    left: -161px;
+    width: 700px;height: 80px;
+  }
+  .information--indent {
+    padding-top: 25px;
+  }
+  .story .title {
+    margin-bottom: 45px;
+  }
+  .story__sl {
+    position: relative;
+    padding-bottom: 60px;
+  }
+  .story__item {
+    height: auto;
+    width: 240px;
+    padding: 0 20px 15px 0;
+    border-bottom: 1px solid #213B48 !important;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+  }
+  .story__date {
+    font-size: 30px;
+    padding-right: 0;
+    line-height: 1.1;
+  }
+  .story__title {
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 1.6;
+  }
+  .story__text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0 0;
+  }
+  .story__item.swiper-slide-active {
+    border-color: #213B48 !important;
+  }
+  .story__item.swiper-slide-active ~ .story__item {
+    border-color: #BDBDBD !important;
+  }
+  .p-projects .tabs__nav {
+    overflow-x: auto;
+    padding: 0 15px 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .p-projects__row {
+    margin-top: 5px;
+  }
+  .contacts__item {
+    min-height: initial;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+  }
+  .contacts__cont {
+    width: 100%;
+  }
+  .contacts__cont a {
+    font-size: 16px;
+  }
+  .contacts__info {
+    font-size: 12px;
+    margin: 5px 0 0;
+  }
+  .contacts__type {
+    top: 1px;
+    margin-top: 0;
+    font-size: 12px;
+    position: relative;
+  }
+  .contacts__data .row [class*='col-']:not(:last-child) {
+    margin-bottom: 45px;
+  }
+  .contacts__address {
+    font-size: 16px;
+  }
+  .contacts__data .contacts__info {
+    margin-top: 5px;
+  }
+  .contacts__button {
+    margin-top: 25px;
+  }
+  .policy {
+    padding-bottom: 60px;
+  }
+  .policy__body h3 {
+    font-size: 18px;
+    margin: 40px 0 15px;
+  }
+  .policy__body h3 span {
+    margin-right: 10px;
+  }
+  .policy__body p {
+    font-size: 14px;
+  }
+  .policy__body p+p {
+    margin-top: 10px;
+  }
+  .p-404 {
+    padding: 52px 0;
+    min-height: initial;
+  }
+  .p-404__btn {
+    margin-top: 25px;
+  }
+  .p-404__right {
+    margin: 45px 0 0;
+    max-width: 100%;
+  }
+  .technologies .row [class*='col-']:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .technologies .tabs {
+    margin-top: 10px;
+  }
+  .stages {
+    padding-top: 60px;
+  }
+  .stages .title {
+    margin-bottom: 15px;
+  }
+  .stages .row [class*='col-'] {
+    margin-top: 10px;
+  }
+  .stages .information__item {
+    min-height: 124px;
+  }
+  .stages .information__item p {
+    max-width: 100%;
+  }
+  .construction {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+  .construction .tabs__body {
+    padding: 15px;
+  }
+  .construction .tabs__nav-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: calc(50% - 5px);
+  }
+  .construction__img {
+    margin-top: 25px;
+  }
+  .exhibition__heading .title {
+    margin-top: 5px;
+  }
+  .exhibition__heading .upping {
+    margin-top: 0;
+  }
+  .exhibition__subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .exhibition__list {
+    margin-top: 30px;
+  }
+  .exhibition__inner {
+    padding: 15px 10px;
+  }
+  .exhibition__address,
+  .exhibition__inner .title,
+  .exhibition__inner .title h3 {
+    white-space: initial;
+    overflow: initial;
+    -o-text-overflow: initial;
+       text-overflow: initial;
+  }
+  .exhibition__address {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 5px 6px;
+    display: inline-block;
+  }
+  .exhibition__inner .title {
+    margin-top: 10px;
+  }
+  .exhibition__inner .title h3 {
+    font-size: 22px;
+    line-height: 1.1;
+  }
+  .exhibition__inner .paragraph {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 15px;
+  }
+  .exhibition__info {
+    padding-top: 0;
+    margin-top: 25px;
+  }
+  .exhibition__info .row [class*='col-'] {
+    margin-top: 15px;
+  }
+  .exhibition__info-item i {
+    width: 20px;height: 20px;
+  }
+  .exhibition__info-item span,
+  .exhibition__info-item p {
+    line-height: 1.6;
+  }
+  .exhibition__info-item span {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .exhibition__info-item p {
+    font-size: 12px;
+  }
+  .exhibition__btn {
+    margin-top: 15px;
+  }
+  .exposition__heading .upping {
+    margin-top: 5px;
+  }
+  .exposition__heading .title {
+    margin: 5px 0 15px;
+  }
+  .exposition__heading .title h3 {
+    font-size: 22px;
+  }
+  .exposition__heading .exhibition__subtitle {
+    font-size: 16px;
+  }
+  .exposition__text {
+    margin-top: 15px;
+  }
+  .exposition-card .paragraph {
+    margin-top: 10px;
+  }
+  .exposition-card__title {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 35px;
+  }
+  .exposition-card__info {
+    padding: 20px;
+  }
+  .exposition-card__info .row [class*='col-'] {
+    margin-bottom: 15px;
+  }
+  .exposition-card__info .exhibition__info-item span {
+    font-size: 10px;
+  }
+  .exposition-card__text {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .exposition-card__text i {
+    margin-right: 5px;
+    width: 15px;height: 15px;
+  }
+  .solutions .title {
+    margin-bottom: 15px;
+  }
+  .solutions__row [class*='col-'] {
+    margin-top: 25px;
+  }
+  .solutions__img {
+    margin-top: 25px;
+    padding-bottom: 45.475%;
+  }
+  .exposition-info__row [class*='col-']:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .exposition-info__text {
+    margin-top: 25px;
+  }
+  .exposition-info__title {
+    font-size: 18px;
+  }
+  .exposition-info__text .paragraph {
+    margin-top: 15px;
+  }
+  .exposition-info .built__sl {
+    margin-top: 30px;
+  }
+
+  .lending .logos {
+    gap: 20px 0;
+  }
+  .lending .logos__item img {
+    max-height: 26px;
+  }
+  .cost .check__text {
+    position: relative;
+  }
+  .question {
+    position: static;
+  }
+  .question__wrap {
+    width: 100%;
+    left: 0;right: 0;bottom: 100%;
+  }
+  .question__box {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .container {max-width: 100% !important;}
+  body {
+    font-size: 14px;
+  }
+  h1, .title__h1 {
+    font-size: 30px;
+  }
+  h2, .title__h2 {
+    font-size: 26px;
+  }
+  .title h2,
+  .title__h2 {
+    line-height: 1.1;
+  }
+  .btn {
+    gap: 0 10px;
+    font-size: 12px;
+  }
+  .btn svg {
+    width: 15px;
+    height: 15px;
+  }
+  .paragraph {
+    line-height: 1.6;
+  }
+  .tabs__nav-item {
+    height: 28px;
+    font-size: 12px;
+  }
+  .hero {
+    padding-top: 30px;
+  }
+  .hero .title {
+    max-width: 100%;
+  }
+  .logotype {
+    top: 0;
+    max-width: 151px;
+    margin-top: 20px;
+  }
+  .hero__sl {
+    margin-top: 20px;
+  }
+  .hero__item {
+    height: 445px;
+  }
+  .advantages__row {
+    gap: 15px 0;
+  }
+  .projects__slide {
+    width: 240px;
+  }
+  .percent {
+    height: 25px;
+    font-size: 10px;
+  }
+  .projects__img {
+    height: 150px;
+  }
+  .projects__info i {
+    margin-bottom: 5px;
+    width: 20px;height: 20px;
+  }
+  .projects__info span {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  .projects__info p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .projects__btn .btn {
+    font-size: 12px;
+  }
+  .mortgage .percent {
+    height: 25px;
+    padding: 0 8px;
+    font-size: 10px;
+    margin-bottom: 25px;
+  }
+  .mortgage .percent i {
+    margin-right: 5px;
+    width: 15px;height: 15px;
+  }
+  .mortgage .title {
+    padding-right: 40px;
+    margin-bottom: 25px;
+  }
+  .mortgage .title span img {
+    width: 30px;
+    margin-top: 3px;
+    top: 50%;right: 0;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .mortgage__subtext {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .finishing__head-left {
+    max-width: 200px;
+  }
+  .finishing__head-right {
+    max-width: 100%;
+  }
+  .finishing__head-item:not(:last-child) {
+    margin: 0 0 15px;
+  }
+  .finishing__body {
+    margin-top: 15px;
+  }
+  .finishing__left {
+    max-width: 100%;
+  }
+  .finishing__panel {
+    padding: 15px;
+    background: #F5F5F5;
+  }
+  .finishing__title {
+    font-size: 18px;
+  }
+  .finishing__type {
+    font-size: 14px;
+  }
+  .finishing__tabs {
+    margin-top: 25px;
+    max-width: 160px;width: 100%;
+  }
+  .finishing__tabs-item:not(:last-child) {
+    margin: 0 0 10px;
+  }
+  .finishing__panel-col {
+    width: 15px;height: 15px;
+  }
+  .planning .tabs__nav--big {
+    gap: 10px;
+  }
+  .planning .tabs__nav--big .tabs__nav-item {
+    margin: 0;
+    padding: 0 5px;
+    max-width: initial;
+    width: calc(50% - 5px);
+  }
+  .gellery .tabs__nav {
+    gap: 10px;
+    position: static;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .gellery .tabs__nav-item {
+    margin: 0;
+    min-width: initial;
+    width: calc(50% - 5px);
+  }
+  .gellery .tabs__body {
+    padding: 15px 15px 0;
+  }
+  .gellery__sl {
+    padding-bottom: 60px;
+  }
+  .gellery__item {
+    width: 240px;height: 180px;
+  }
+  .gellery__arrows {
+    height: 35px;
+    top: auto;bottom: 0;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .gellery__arrows .swiper-button-arrow {
+    top: 0;
+    border: 1px solid #BDBDBD;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .gellery__arrows .swiper-button-arrow svg {
+    fill: #BDBDBD;
+  }
+  .gellery__arrows .swiper-button-arrow:hover {
+    background: #FED269;
+    border-color: #FED269;
+  }
+  .gellery__arrows .swiper-button-arrow:hover svg {
+    fill: #213B48;
+  }
+  .gellery__arrows .swiper-button-next {
+    right: 15px;
+  }
+  .gellery__arrows .swiper-button-prev {
+    left: 15px;
+  }
+  .cost__btn .btn {
+    font-size: 12px;
+  }
+  .cost__btn .btn svg {
+    width: 15px;height: 15px;
+  }
+  .lending__btn .btn,
+  .catalog__btn .btn {
+    max-width: 220px;
+  }
+  .catalog__btn {
+    margin-top: 25px;
+  }
+  .catalog .accordion > li:last-child,
+  .faq .accordion > li {
+    border-bottom: 1px solid #E2E2E2;
+  }
+  .partners .row [class*='col-']:not(:last-child) {
+    margin-bottom: 45px;
+  }
+  .partners__roof {
+    margin-top: 1px;
+  }
+  .vantages__item i {
+    width: 35px;height: 35px;
+  }
+  .vantages__item span {
+    margin-top: 15px;
+  }
+  .vantages__item span {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .vantages__img {
+    height: 425px;
+  }
+  .vantages__img svg {
+    left: 0px;
+    width: 290px;height: 33px;
+  }
+  .p-projects__row .projects__item {
+    background: #fff;
+  }
+  .p-projects .projects__img {
+    height: 300px;
+  }
+  .contacts__data {
+    padding: 60px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .contacts__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contacts__address,
+  .contacts__button {
+    width: 100%;
+  }
+  .technologies .tabs__body {
+    height: 350px;
+  }
+  .exhibition__item {
+    background: #fff;
+    -webkit-box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+  }
+  .exhibition__btn .btn {
+    color: #213B48;
+    background: #FED269;
+  }
+  .exhibition__btn .btn:hover {
+    background: #fff;
+    border-color: #FED269;
+  }
+}
+
+@media only screen and (max-width : 575px) {
+  .btn {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  .bg-triangle {
+    padding-top: 58px;
+  }
+  .bg-triangle:before {
+    display: block;
+  }
+  .bg-triangle__layer {
+    width: initial;
+    overflow: initial;
+    background: #213B48;
+    left: 0 !important;right: 0;
+  }
+  .bg-triangle__layer svg {
+    display: none;
+  }
+  .bg-triangle__box {
+    padding-top: 30px;
+  }
+  .navbar__logo {
+    max-width: 124px;
+  }
+  .navbar__logo span {
+    top: 0;
+    display: block;
+    margin: 2px 0 0;
+  }
+  .projects__btn .btn {
+    width: initial;
+    max-width: initial;
+  }
+  .mortgage__btns .btn:not(:last-child),
+  .questions__btns .btn:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .questions__cont:not(:last-child) {
+    margin: 0 0 5px;
+  }
+  .footer__bell .btn {
+    width: initial;
+    max-width: initial;
+  }
+  .finishing__thumbs .swiper-slide {
+    height: 90px;
+  }
+  .lending .row .col-sm-6:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .lending__btn .btn,
+  .catalog__btn .btn {
+    max-width: 220px !important;
+  }
+  .vantages__img {
+    background: url(../img/other/vantages-mob.jpg) center/cover no-repeat !important;
+  }
+  .faq__btn .btn {
+    max-width: 250px !important;
+  }
+  .more .btn {
+    max-width: 170px !important;
+  }
+  .pagination__list {
+    gap: 5px;
+    font-size: 12px;
+  }
+  .contacts .footer__cont-item:not(:last-child) {
+    margin: 0 0 15px;
+  }
+  .p-404__btn .btn {
+    max-width: 210px !important;
+  }
+  .video__btn {
+    width: 55px;height: 55px;
+  }
+  .video__btn svg {
+    width: 10px;height: 13px;
+  }
+  .video .upping {
+    top: 10px;left: 10px;
+  }
+  .technologies .tabs__body {
+    height: 290px;
+  }
+  .video__box > img {
+    max-width: 210px;
+  }
+  .exhibition__img {
+    padding-bottom: 55.4%;
+  }
+  .exhibition__btn .btn {
+    max-width: 155px !important;
+  }
+  .exposition-card__img {
+    min-height: 345px;
+  }
+  .solutions__img {
+    padding-bottom: 100%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .finishing__thumbs .swiper-slide {
+    height: 60px;
+  }
+  .finishing__thumbs .swiper-slide span {
+    right: 5px;
+    font-size: 12px;
+  }
+  .planning__tabs-body .tabs__nav {
+    gap: 5px;
+  }
+  .planning__tabs-body .tabs__nav-item {
+    margin: 0;
+    width: calc(50% - 2.5px);
+  }
+  .partners__item {
+    padding: 45px 15px;
+  }
+  .p-projects .projects__img {
+    height: 150px;
+  }
+  .policy .title h1 {
+    font-size: 26px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 576px) {
+  .mortgage__btns .btn:not(:last-child),
+  .questions__btns .btn:not(:last-child) {
+    margin-right: 10px;
+  }
+  .bg-triangle__layer:before {
+    display: none;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .contacts__data:before {
+    display: none;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .paragraph--big {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  .close--navbar {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .footer__nav:not(:last-child) {
+    padding-right: 30px;
+  }
+  .footer__nav li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .footer__nav--second li:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .footer__cont-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .story__sl .swiper-wrapper {
+    display: block;
+  }
+  .story__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .story__sl .swiper-button-arrow {
+    display: none;
+  }
+  .p-404 .title {
+    margin-bottom: 30px;
+  }
+  .technologies .title {
+    margin-bottom: 140px;
+  }
+  .technologies .tabs__nav {
+    margin-top: -88px;
+  }
+  .stages .title,
+  .construction .title,
+  .solutions .title {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .projects__info:not(:last-child) {
+    margin-right: 32px;
+  }
+  .projects--similar .projects__item {
+    background: #F5F5F5;
+  }
+  .projects--similar .projects__item:hover {
+    background: #fff;
+  }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1340px) {
+  .container {max-width: 1310px;}
+  .footer__group {
+    padding-left: 16px;
+  }
+  .cost__col-big {
+    -ms-flex: 0 0 75%;
+    -webkit-box-flex: 0;
+            flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .cost__col-small {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+            flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width : 1700px) {
+  .projects.triangle-top-left-big:before {
+    border-top: 250px solid #fff;
+  }
+  .hero__sl:before {
+    right: -10px;
+    border-top: 250px solid #fff;
+  }
+}
+
+@media only screen and (min-width : 2560px) {
+  .mortgage__img,
+  .questions__img {
+    width: 55%;
+  }
+}

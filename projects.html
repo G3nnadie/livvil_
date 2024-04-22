@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Default</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <!-- Fonts END -->
+
+  <!-- Libs -->
+  <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+  <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+  <!-- Libs END -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper fx-column">
+    
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <!-- Logo -->
+
+        <a href="#" class="logo">
+          <img class="d-none d-lg-block" src="img/logo.svg" alt="Logo">
+          <img class="d-lg-none" src="img/logo-mb.svg" alt="Logo">
+        </a>
+
+        <!-- Toggle -->
+
+        <div class="toggle d-flex align-items-center">
+          <button class="toggle__nav speed">
+            <span></span>
+            <span></span>
+          </button>
+          <span class="toggle__name">Меню</span>
+        </div>
+
+        <!-- Btns -->
+
+        <div class="header__btns d-flex align-items-center">
+          <a href="#" class="btn btn--borderGray flex-center d-none d-xl-flex">Записаться на просмотр</a>
+          <a href="#" class="btn btn--borderGray btn--round flex-center header__btn-search">
+            <svg viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.4168 13.98C17.7473 12.202 18.3548 9.98603 18.1171 7.77813C17.8794 5.57023 16.8141 3.53435 15.1357 2.08029C13.4573 0.626229 11.2904 -0.138038 9.07115 -0.0586689C6.85191 0.0207 4.74512 0.937812 3.17488 2.50805C1.60464 4.0783 0.687524 6.18508 0.608155 8.40432C0.528787 10.6236 1.29305 12.7905 2.74711 14.4689C4.20117 16.1473 6.23706 17.2126 8.44496 17.4503C10.6529 17.688 12.8688 17.0804 14.6468 15.75L18.8968 20L20.6668 18.2333L16.4168 13.98ZM9.41683 15C8.18069 15 6.97232 14.6334 5.94451 13.9467C4.9167 13.2599 4.11563 12.2838 3.64258 11.1418C3.16953 9.99973 3.04576 8.74307 3.28692 7.53069C3.52808 6.31831 4.12333 5.20466 4.99741 4.33058C5.87149 3.45651 6.98513 2.86125 8.19751 2.62009C9.40989 2.37894 10.6666 2.50271 11.8086 2.97575C12.9506 3.4488 13.9268 4.24988 14.6135 5.27769C15.3003 6.30549 15.6668 7.51387 15.6668 8.75C15.6653 10.4071 15.0063 11.9959 13.8345 13.1677C12.6628 14.3395 11.074 14.9985 9.41683 15Z"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Relations -->
+        
+        <div class="relations d-flex align-items-center">
+          <div class="relations__item">
+            <p class="relations__tel"><a href="tel:84951536264">8 (495) 153-62-64</a></p>
+            <div class="relations__address"><i class="i-marker"></i>Москва</div>
+          </div>
+          <div class="relations__item">
+            <p class="relations__tel"><a href="tel:88122205856">8 (812) 220-58-56</a></p>
+            <div class="relations__address"><i class="i-marker"></i>Санкт-Петербург</div>
+          </div>
+          <div class="relations__item">
+            <a href="#" class="btn btn--round btn--primary flex-center phone">
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.46745 3.11666L4.50912 0.0749969L10.0424 5.60833L7.57578 8.075C8.54245 10.0833 9.97578 11.5167 11.9174 12.4333L14.3924 9.95833L19.9258 15.4917L16.8924 18.525C15.9424 19.475 14.6674 20 13.2924 20C7.33412 20 0.00911522 12.675 0.00911522 6.71666C0.00911522 5.34166 0.534115 4.05833 1.47578 3.11666H1.46745ZM13.2841 17.5C13.9924 17.5 14.6424 17.2417 15.1174 16.7583L16.3841 15.4917L14.3841 13.4917L12.5091 15.3667L11.7508 15.075C8.54245 13.85 6.24245 11.5583 4.92578 8.25833L4.61745 7.49166L6.50911 5.6L4.50912 3.6L3.23411 4.86666C2.75912 5.34166 2.50078 5.99166 2.50078 6.7C2.50078 11.6 9.12578 17.4833 13.2841 17.4833V17.5Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="navbar">
+        <div class="navbar__head">
+          <div class="container d-flex align-items-center">
+            <div class="navbar__logo d-sm-flex align-items-end">
+              <a href="#"><img src="img/logo-white.svg" alt="Logo"></a><span>Дома, готовые для жизни, для вас и вашей семьи</span>
+            </div>
+            <div class="relations__item d-lg-none">
+              <a href="#" class="btn btn--round btn--primary flex-center phone">
+                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.46745 3.11666L4.50912 0.0749969L10.0424 5.60833L7.57578 8.075C8.54245 10.0833 9.97578 11.5167 11.9174 12.4333L14.3924 9.95833L19.9258 15.4917L16.8924 18.525C15.9424 19.475 14.6674 20 13.2924 20C7.33412 20 0.00911522 12.675 0.00911522 6.71666C0.00911522 5.34166 0.534115 4.05833 1.47578 3.11666H1.46745ZM13.2841 17.5C13.9924 17.5 14.6424 17.2417 15.1174 16.7583L16.3841 15.4917L14.3841 13.4917L12.5091 15.3667L11.7508 15.075C8.54245 13.85 6.24245 11.5583 4.92578 8.25833L4.61745 7.49166L6.50911 5.6L4.50912 3.6L3.23411 4.86666C2.75912 5.34166 2.50078 5.99166 2.50078 6.7C2.50078 11.6 9.12578 17.4833 13.2841 17.4833V17.5Z"></path>
+                </svg>
+              </a>
+            </div>
+            <a href="#" class="btn btn--borderGray btn--round flex-center header__btn-search d-lg-none">
+              <svg viewBox="0 0 21 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.4168 13.98C17.7473 12.202 18.3548 9.98603 18.1171 7.77813C17.8794 5.57023 16.8141 3.53435 15.1357 2.08029C13.4573 0.626229 11.2904 -0.138038 9.07115 -0.0586689C6.85191 0.0207 4.74512 0.937812 3.17488 2.50805C1.60464 4.0783 0.687524 6.18508 0.608155 8.40432C0.528787 10.6236 1.29305 12.7905 2.74711 14.4689C4.20117 16.1473 6.23706 17.2126 8.44496 17.4503C10.6529 17.688 12.8688 17.0804 14.6468 15.75L18.8968 20L20.6668 18.2333L16.4168 13.98ZM9.41683 15C8.18069 15 6.97232 14.6334 5.94451 13.9467C4.9167 13.2599 4.11563 12.2838 3.64258 11.1418C3.16953 9.99973 3.04576 8.74307 3.28692 7.53069C3.52808 6.31831 4.12333 5.20466 4.99741 4.33058C5.87149 3.45651 6.98513 2.86125 8.19751 2.62009C9.40989 2.37894 10.6666 2.50271 11.8086 2.97575C12.9506 3.4488 13.9268 4.24988 14.6135 5.27769C15.3003 6.30549 15.6668 7.51387 15.6668 8.75C15.6653 10.4071 15.0063 11.9959 13.8345 13.1677C12.6628 14.3395 11.074 14.9985 9.41683 15Z"/>
+              </svg>
+            </a>
+            <button class="close close--navbar flex-center">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 2.33334L27.6667 0L15 12.6667L2.33332 0L0 2.33334L12.6667 15L0 27.6667L2.33332 30L15 17.3333L27.6667 30L30 27.6667L17.3333 15L30 2.33334Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="container navbar__body">
+          <nav class="nav d-lg-flex">
+            <ul class="nav__list nav__list--primary">
+              <li><a href="#">Все проекты</a></li>
+              <li><a href="#">Индивидуальные проекты</a></li>
+              <li><a href="#">Реализованые проекты</a></li>
+              <li><a href="#">Open Village</a></li>
+            </ul>
+            <ul class="nav__list nav__list--second">
+              <li><a href="#">
+                <svg class="nav__percent" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.25 13.6875C9.28553 13.6875 10.125 12.848 10.125 11.8125C10.125 10.777 9.28553 9.9375 8.25 9.9375C7.21447 9.9375 6.375 10.777 6.375 11.8125C6.375 12.848 7.21447 13.6875 8.25 13.6875Z" stroke="#8F8F8F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15.75 19.3125C16.7855 19.3125 17.625 18.473 17.625 17.4375C17.625 16.402 16.7855 15.5625 15.75 15.5625C14.7145 15.5625 13.875 16.402 13.875 17.4375C13.875 18.473 14.7145 19.3125 15.75 19.3125Z" stroke="#8F8F8F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15.75 9.9375L8.25 19.3125" stroke="#8F8F8F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M2.625 8.64453V19.3128C2.625 21.3839 4.30392 23.0628 6.375 23.0628H17.625C19.6961 23.0628 21.375 21.3839 21.375 19.3128V13.6633" stroke="#8F8F8F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M0.9375 10.125L10.7541 1.41127C11.0853 1.11656 11.5218 0.9375 12 0.9375C12.4782 0.9375 12.9147 1.11656 13.2459 1.41127L23.0625 10.125" stroke="#8F8F8F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M19.5 2.8125V6.97589" stroke="#8F8F8F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              Кредитование</a></li>
+              <li><a href="#">
+                <svg class="nav__calc" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 24H23V3C23 2.20435 22.6839 1.44129 22.1213 0.87868C21.5587 0.31607 20.7956 0 20 0L4 0C3.20435 0 2.44129 0.31607 1.87868 0.87868C1.31607 1.44129 1 2.20435 1 3V24ZM3 3C3 2.73478 3.10536 2.48043 3.29289 2.29289C3.48043 2.10536 3.73478 2 4 2H20C20.2652 2 20.5196 2.10536 20.7071 2.29289C20.8946 2.48043 21 2.73478 21 3V22H3V3ZM5 10H19V4H5V10ZM7 6H17V8H7V6ZM5 13H7V15H5V13ZM9 13H11V15H9V13ZM15 13V15H13V13H15ZM5 17H7V19H5V17ZM9 17H11V19H9V17ZM17 13H19V15H17V13ZM13 17H19V19H13V17Z" fill="#8F8F8F"/>
+                </svg>
+              Расчет стоимости</a></li>
+              <li><a href="#">
+                <svg class="nav__3d" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.1094 0.86676C13.5353 0.312554 12.766 0.00683332 11.968 0.0158176C11.1701 0.0248018 10.4079 0.347768 9.84639 0.914761L0.0253906 11.9998L9.89139 23.1328C10.1687 23.4088 10.4977 23.6274 10.8596 23.7762C11.2215 23.925 11.6091 24.0009 12.0004 23.9998C12.4026 23.9989 12.8005 23.9174 13.1707 23.7601C13.5408 23.6027 13.8757 23.3728 14.1554 23.0838L23.9604 11.9998L14.1094 0.86676ZM20.7384 11.3758L13.0004 13.6618V2.62776L20.7384 11.3758ZM11.0004 2.62376V13.6618L3.25339 11.3728L11.0004 2.62376ZM4.25039 13.7528L11.0004 15.7468V21.3728L4.25039 13.7528ZM13.0004 21.3748V15.7468L19.7364 13.7568L13.0004 21.3748Z" fill="#8F8F8F"/>
+                </svg>
+              3D-тур</a></li>
+              <li><a href="#">Ответы</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Отзывы</a></li>
+            </ul>
+          </nav>
+          <div class="navbar__info d-flex align-items-center">
+            <div class="relations__item d-none d-lg-block">
+              <p class="relations__tel"><a href="tel:84951536264">8 (495) 153-62-64</a></p>
+              <div class="relations__address"><i class="i-marker-yellow"></i>Москва</div>
+            </div>
+            <div class="relations__item d-none d-lg-block">
+              <p class="relations__tel"><a href="tel:88122205856">8 (812) 220-58-56</a></p>
+              <div class="relations__address"><i class="i-marker-yellow"></i>Санкт-Петербург</div>
+            </div>
+            <div class="navbar__btn">
+              <a href="#" class="btn btn--primary flex-center">
+                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.17376 2.4929L3.6071 0.0595703L8.03376 4.48624L6.06043 6.45957C6.83376 8.06624 7.98043 9.2129 9.53376 9.94624L11.5138 7.96624L15.9404 12.3929L13.5138 14.8196C12.7538 15.5796 11.7338 15.9996 10.6338 15.9996C5.8671 15.9996 0.00709629 10.1396 0.00709629 5.3729C0.00709629 4.2729 0.427096 3.24624 1.18043 2.4929H1.17376ZM10.6271 13.9996C11.1938 13.9996 11.7138 13.7929 12.0938 13.4062L13.1071 12.3929L11.5071 10.7929L10.0071 12.2929L9.40043 12.0596C6.83376 11.0796 4.99376 9.24624 3.94043 6.60624L3.69376 5.9929L5.2071 4.47957L3.6071 2.87957L2.5871 3.8929C2.2071 4.2729 2.00043 4.7929 2.00043 5.35957C2.00043 9.27957 7.30043 13.9862 10.6271 13.9862V13.9996Z"/>
+                </svg>Заказать звонок
+              </a>
+            </div>
+          </div>
+          <i class="navbar__img triangle-top-left-big d-none d-lg-block" style="background: url(img/other/navbar.png) center/cover no-repeat;"></i>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Main -->
+
+    <main class="main">
+
+      <!-- Breadcrumb -->
+
+      <nav class="breadcrumb">
+        <div class="container">
+          <ul>
+            <li class="breadcrumb__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="breadcrumb__item">
+              <a href="#">Проекты</a>
+            </li>
+            <li class="breadcrumb__item active">
+              Реализованые
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Projects -->
+
+      <section class="p-projects">
+        <div class="container">
+
+          <!-- Title -->
+
+          <div class="title">
+            <h1>Реализованные проекты</h1>
+          </div>
+
+          <!-- Taba nav -->
+
+          <ul class="tabs__nav tabs__nav--big tabs__nav--white d-flex">
+            <li class="tabs__nav-item flex-center tabs__nav-item--active">Все</li>
+            <li class="tabs__nav-item flex-center">Реализованые</li>
+            <li class="tabs__nav-item flex-center">Дома</li>
+            <li class="tabs__nav-item flex-center">Навесы</li>
+            <li class="tabs__nav-item flex-center">Бани</li>
+          </ul>
+
+          <!-- Row -->
+
+          <div class="row p-projects__row">
+            
+            <!-- Col -->
+
+            <div class="col-12 col-md-6">
+              <div class="projects__item">
+                <div class="percent"><i class="i-percent"></i>Доступен в ипотеку</div>
+                <div class="swiper-container projects__inner">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                  </div>
+                  <div class="swiper-pagination fx"></div>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-next flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5 20.1879L8.53509 11.7729L0.5 3.35795L2.97368 0.772949L13.5 11.7729L2.97368 22.7729L0.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-prev flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 20.1879L5.46491 11.7729L13.5 3.35795L11.0263 0.772949L0.5 11.7729L11.0263 22.7729L13.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="projects__content">
+                  <div class="projects__head">
+                    <span class="projects__name text-crop">LV123</span>
+                    <span class="projects__price"><span>от</span> 6 265 700 ₽</span>
+                  </div>
+                  <div class="projects__body">
+                    <div class="projects__info">
+                      <i class="i-square"></i>
+                      <span>Общая площадь</span>
+                      <p>357 м²</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-floors"></i>
+                      <span>Кол - во этажей</span>
+                      <p>1 этаж</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-rooms"></i>
+                      <span>Кол - во комнат</span>
+                      <p>3 комнаты</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-bathrooms"></i>
+                      <span>Кол - во санузлов</span>
+                      <p>2 санузла</p>
+                    </div>
+                  </div>
+                  <div class="projects__btn fx">
+                    <a href="#" class="btn btn--second flex-center">Смотреть проект</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-md-6">
+              <div class="projects__item">
+                <div class="percent"><i class="i-percent"></i>Доступен в ипотеку</div>
+                <div class="swiper-container projects__inner">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                  </div>
+                  <div class="swiper-pagination fx"></div>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-next flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5 20.1879L8.53509 11.7729L0.5 3.35795L2.97368 0.772949L13.5 11.7729L2.97368 22.7729L0.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-prev flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 20.1879L5.46491 11.7729L13.5 3.35795L11.0263 0.772949L0.5 11.7729L11.0263 22.7729L13.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="projects__content">
+                  <div class="projects__head">
+                    <span class="projects__name text-crop">LV123</span>
+                    <span class="projects__price"><span>от</span> 6 265 700 ₽</span>
+                  </div>
+                  <div class="projects__body">
+                    <div class="projects__info">
+                      <i class="i-square"></i>
+                      <span>Общая площадь</span>
+                      <p>357 м²</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-floors"></i>
+                      <span>Кол - во этажей</span>
+                      <p>1 этаж</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-rooms"></i>
+                      <span>Кол - во комнат</span>
+                      <p>3 комнаты</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-bathrooms"></i>
+                      <span>Кол - во санузлов</span>
+                      <p>2 санузла</p>
+                    </div>
+                  </div>
+                  <div class="projects__btn fx">
+                    <a href="#" class="btn btn--second flex-center">Смотреть проект</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-md-6">
+              <div class="projects__item">
+                <div class="percent"><i class="i-percent"></i>Доступен в ипотеку</div>
+                <div class="swiper-container projects__inner">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                  </div>
+                  <div class="swiper-pagination fx"></div>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-next flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5 20.1879L8.53509 11.7729L0.5 3.35795L2.97368 0.772949L13.5 11.7729L2.97368 22.7729L0.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-prev flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 20.1879L5.46491 11.7729L13.5 3.35795L11.0263 0.772949L0.5 11.7729L11.0263 22.7729L13.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="projects__content">
+                  <div class="projects__head">
+                    <span class="projects__name text-crop">LV123</span>
+                    <span class="projects__price"><span>от</span> 6 265 700 ₽</span>
+                  </div>
+                  <div class="projects__body">
+                    <div class="projects__info">
+                      <i class="i-square"></i>
+                      <span>Общая площадь</span>
+                      <p>357 м²</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-floors"></i>
+                      <span>Кол - во этажей</span>
+                      <p>1 этаж</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-rooms"></i>
+                      <span>Кол - во комнат</span>
+                      <p>3 комнаты</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-bathrooms"></i>
+                      <span>Кол - во санузлов</span>
+                      <p>2 санузла</p>
+                    </div>
+                  </div>
+                  <div class="projects__btn fx">
+                    <a href="#" class="btn btn--second flex-center">Смотреть проект</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-md-6">
+              <div class="projects__item">
+                <div class="percent"><i class="i-percent"></i>Доступен в ипотеку</div>
+                <div class="swiper-container projects__inner">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                    <div class="swiper-slide projects__img" style="background: url('img/projects/1.png') center/cover no-repeat;"></div>
+                  </div>
+                  <div class="swiper-pagination fx"></div>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-next flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5 20.1879L8.53509 11.7729L0.5 3.35795L2.97368 0.772949L13.5 11.7729L2.97368 22.7729L0.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                  <button class="swiper-button-arrow swiper-button-arrow--small swiper-button-prev flex-center">
+                    <svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 20.1879L5.46491 11.7729L13.5 3.35795L11.0263 0.772949L0.5 11.7729L11.0263 22.7729L13.5 20.1879Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="projects__content">
+                  <div class="projects__head">
+                    <span class="projects__name text-crop">LV123</span>
+                    <span class="projects__price"><span>от</span> 6 265 700 ₽</span>
+                  </div>
+                  <div class="projects__body">
+                    <div class="projects__info">
+                      <i class="i-square"></i>
+                      <span>Общая площадь</span>
+                      <p>357 м²</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-floors"></i>
+                      <span>Кол - во этажей</span>
+                      <p>1 этаж</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-rooms"></i>
+                      <span>Кол - во комнат</span>
+                      <p>3 комнаты</p>
+                    </div>
+                    <div class="projects__info">
+                      <i class="i-bathrooms"></i>
+                      <span>Кол - во санузлов</span>
+                      <p>2 санузла</p>
+                    </div>
+                  </div>
+                  <div class="projects__btn fx">
+                    <a href="#" class="btn btn--second flex-center">Смотреть проект</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- More -->
+
+          <div class="more flex-center">
+            <a href="#" class="btn btn--primary flex-center">Загрузить еще
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.9306 8.99306H6.06944" stroke="#213B48" stroke-width="2" stroke-linecap="square"/>
+                <path d="M8.99744 11.9257L8.99805 6.05908" stroke="#213B48" stroke-width="2" stroke-linecap="square"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="#213B48" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Pagination -->
+
+          <nav class="pagination">
+            <ul class="pagination__list flex-center">
+              <li class="pagination__item pagination__item--arrow pagination__item--prev">
+                <a class="flex-center" href="#">
+                  <svg viewBox="0 0 13 22" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 19.415L4.96491 11L13 2.585L10.5263 0L0 11L10.5263 22L13 19.415Z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">01</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">02</a>
+              </li>
+              <li class="pagination__item pagination__item--active">
+                <a class="pagination__link" href="#">03</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">04</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">...</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">08</a>
+              </li>
+              <li class="pagination__item pagination__item--arrow pagination__item--next">
+                <a class="flex-center" href="#">
+                  <svg viewBox="0 0 13 22" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 19.415L8.03509 11L0 2.585L2.47368 0L13 11L2.47368 22L0 19.415Z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </section>
+
+      <!-- Advantages -->
+
+      <section class="advantages">
+        <div class="container">
+          <div class="row">
+            
+            <!-- Col -->
+
+            <div class="col-12 col-xl-5">
+              <div class="title mb-0">
+                <h2>Строить дом просто, если строить с компанией LIVVIL</h2>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-xl-7">
+              <div class="advantages__inner">
+                <div class="row advantages__row">
+                  <div class="col-12 col-md-6">
+                    <div class="advantages__item triangle-top-down-small">
+                      <i class="i-from-factory"></i>
+                      <span>ПРЯМО С ЗАВОДА</span>
+                      <p>Все детали дома производятся на станках с ЧПУ, что обеспечивает безупречную совместимость модулей при сборке дома.</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="advantages__item triangle-top-down-small">
+                      <i class="i-ready"></i>
+                      <span>50 ДНЕЙ И ГОТОВО</span>
+                      <p>Комфортный и технологичный дом всего за полтора месяца. Без компромиссов.</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="advantages__item triangle-top-down-small">
+                      <i class="i-guarantee"></i>
+                      <span>10 ЛЕТ ГАРАНТИИ</span>
+                      <p>Расчётный срок эксплуатации домов составляет более 50 лет.</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="advantages__item triangle-top-down-small">
+                      <i class="i-seasonality"></i>
+                      <span>ЗИМОЙ И ЛЕТОМ</span>
+                      <p>Наши дома подходят для комфортного круглогодичного проживания</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            
+            <!-- Col -->
+
+            <div class="col-12 col-lg-6">
+              <div class="about__text">
+                <div class="title">
+                  <h2>Livvil</h2>
+                  <p class="title__sub">Комфортные и технологичные дома с заводским качеством</p>
+                </div>
+                <div class="paragraph paragraph--big">
+                  <p>Мы сотрудничаем с нашими клиентами для создания жилых домов и окружающей среды, которые соответствуют их образу жизни</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-6">
+              <div class="about__text about__text--right">
+                <div class="paragraph">
+                  <p>Мы сотрудничаем с нашими клиентами для создания жилых домов и окружающей среды, которые соответствуют их образу жизни.  Мы сотрудничаем с нашими клиентами для создания жилых домов и окружающей среды, которые соответствуют их образу жизни. </p>
+                  <p>Мы сотрудничаем с нашими клиентами для создания жилых домов и окружающей среды, которые соответствуют их образу жизни. Мы сотрудничаем с нашими клиентами для создания жилых домов и окружающей среды, которые соответствуют их образу жизни.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Information -->
+
+      <div class="information information--indent">
+        <div class="container">
+          <div class="row information__row">
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-4 col-xl-6">
+              <div class="information__item triangle-top-down-small information__item--green">
+                <span>2 000 м <small><sup>2</sup></small></span>
+                <p>Площадь производственных мощностей</p>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-4 col-xl-3">
+              <div class="information__item triangle-top-down-small">
+                <span>15</span>
+                <p>Домокомлектов в месяц</p>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-4 col-xl-3">
+              <div class="information__item triangle-top-down-small">
+                <span>50</span>
+                <p>Дней на строительство 1-го дома</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Questions -->
+
+      <section class="questions bg-triangle">
+        <div class="container">
+          <span class="bg-triangle__layer bg-triangle__layer--small">
+            <svg viewBox="0 0 1116 609" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 609V85.6273L329 0L1116 85.6273V609H0Z"/>
+            </svg>
+          </span>
+
+          <!-- Box -->
+
+          <div class="questions__box bg-triangle__box">
+            <div class="title">
+              <h2>Остались вопросы</h2>
+              <p class="questions__subtitle">Свяжитесь с менеджером LIVVIL любым доступным способом</p>
+            </div>
+            <div class="questions__group d-sm-flex">
+              <div class="questions__cont"><a href="tel:+78122205854"><i class="i-tel"></i>+7 (812) 220-58-54</a></div>
+              <div class="questions__cont questions__cont--email"><a href="mailto:info@livvil.ru"><i class="i-email"></i>info@livvil.ru</a></div>
+            </div>
+            <div class="questions__btns d-sm-flex">
+              <a href="#" class="btn btn--big btn--second btn--wt flex-center">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.503 0H12.497C5.8805 0 0.5 5.382 0.5 12C0.5 14.625 1.346 17.058 2.7845 19.0335L1.289 23.4915L5.9015 22.017C7.799 23.274 10.0625 24 12.503 24C19.1195 24 24.5 18.6165 24.5 12C24.5 5.3835 19.1195 0 12.503 0Z" fill="#FED269"/>
+                  <path d="M19.4858 16.9453C19.1963 17.7628 18.0473 18.4408 17.1308 18.6388C16.5038 18.7723 15.6848 18.8788 12.9278 17.7358C9.40132 16.2748 7.13032 12.6913 6.95332 12.4588C6.78382 12.2263 5.52832 10.5613 5.52832 8.83928C5.52832 7.11728 6.40282 6.27878 6.75532 5.91878C7.04482 5.62328 7.52332 5.48828 7.98232 5.48828C8.13082 5.48828 8.26432 5.49578 8.38432 5.50178C8.73682 5.51678 8.91382 5.53778 9.14632 6.09428C9.43582 6.79178 10.1408 8.51378 10.2248 8.69078C10.3103 8.86778 10.3958 9.10778 10.2758 9.34028C10.1633 9.58028 10.0643 9.68678 9.88732 9.89078C9.71032 10.0948 9.54232 10.2508 9.36532 10.4698C9.20332 10.6603 9.02032 10.8643 9.22432 11.2168C9.42832 11.5618 10.1333 12.7123 11.1713 13.6363C12.5108 14.8288 13.5968 15.2098 13.9853 15.3718C14.2748 15.4918 14.6198 15.4633 14.8313 15.2383C15.0998 14.9488 15.4313 14.4688 15.7688 13.9963C16.0088 13.6573 16.3118 13.6153 16.6298 13.7353C16.9538 13.8478 18.6683 14.6953 19.0208 14.8708C19.3733 15.0478 19.6058 15.1318 19.6913 15.2803C19.7753 15.4288 19.7753 16.1263 19.4858 16.9453Z" fill="#fff"/>
+                </svg>
+              WhatsApp</a>
+              <a href="#" class="btn btn--big btn--second flex-center">
+                <svg width="27" height="24" viewBox="0 0 27 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.937378 10.5784L24.8305 0.131544C25.9541 -0.359734 27.1716 0.59624 26.98 1.81935L23.7131 22.6735C23.5113 23.9616 21.9356 24.4543 21.0506 23.5059L15.6895 17.7606C14.6381 16.6339 14.5557 14.8999 15.4954 13.6764L19.2807 8.7476C19.4971 8.46583 19.1554 8.09516 18.8625 8.29395L11.3364 13.402C10.0592 14.2688 8.50956 14.6254 6.98746 14.4026L1.33109 13.575C-0.218433 13.3483 -0.49979 11.2068 0.937378 10.5784Z"/>
+                </svg>
+              Telegram</a>
+            </div>
+          </div>
+          
+        </div>
+        <span class="bg-triangle__img questions__img" style="background: url('img/other/questions.png') center/cover no-repeat;"></span>
+      </section>
+      
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+
+        <!-- Body -->
+
+        <div class="row footer__body">
+          <div class="col-12 col-lg-6 col-xl-7">
+            <div class="footer__logo fx">
+              <a href="#" class="logo">
+                <img src="img/logo.svg" alt="Logo">
+                <p>Дома, готовые для жизни, для вас и вашей семьи</p>
+              </a>
+            </div>
+            <div class="footer__relations d-flex">
+              <div class="relations__item">
+                <p class="relations__tel"><a href="tel:84951536264">8 (495) 153-62-64</a></p>
+                <div class="relations__address"><i class="i-marker"></i>Москва</div>
+              </div>
+              <div class="relations__item">
+                <p class="relations__tel"><a href="tel:88122205856">8 (812) 220-58-56</a></p>
+                <div class="relations__address"><i class="i-marker"></i>Санкт-Петербург</div>
+              </div>
+            </div>
+            <div class="footer__bell d-flex"><a href="#" class="btn btn--primary flex-center">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.17376 2.4929L3.6071 0.0595703L8.03376 4.48624L6.06043 6.45957C6.83376 8.06624 7.98043 9.2129 9.53376 9.94624L11.5138 7.96624L15.9404 12.3929L13.5138 14.8196C12.7538 15.5796 11.7338 15.9996 10.6338 15.9996C5.8671 15.9996 0.00709629 10.1396 0.00709629 5.3729C0.00709629 4.2729 0.427096 3.24624 1.18043 2.4929H1.17376ZM10.6271 13.9996C11.1938 13.9996 11.7138 13.7929 12.0938 13.4062L13.1071 12.3929L11.5071 10.7929L10.0071 12.2929L9.40043 12.0596C6.83376 11.0796 4.99376 9.24624 3.94043 6.60624L3.69376 5.9929L5.2071 4.47957L3.6071 2.87957L2.5871 3.8929C2.2071 4.2729 2.00043 4.7929 2.00043 5.35957C2.00043 9.27957 7.30043 13.9862 10.6271 13.9862V13.9996Z"/>
+              </svg>
+            Заказать звонок</a></div>
+            <div class="footer__email"><a href="mailto:info@livvil.ru">info@livvil.ru</a></div>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-5">
+            <div class="footer__group d-flex justify-content-between">
+              <ul class="footer__nav">
+                <li><a href="#">Все проекты</a></li>
+                <li><a href="#">Индивидуальные проекты</a></li>
+                <li><a href="#">Реализованые проекты</a></li>
+                <li><a href="#">Open Village</a></li>
+                <li><a href="#">Ответы</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Отзывы</a></li>
+              </ul>
+              <ul class="footer__nav footer__nav--second">
+                <li><a href="#"><i class="i-percent-gray"></i>Кредитование</a></li>
+                <li><a href="#"><i class="i-calc"></i>Расчет стоимости</a></li>
+                <li><a href="#"><i class="i-3d"></i>3D-тур</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bott -->
+
+        <div class="row footer__bott align-items-center">
+          <div class="col-12 col-lg-5 order-lg-2">
+            <div class="footer__cont d-flex justify-content-lg-end">
+              <div class="footer__cont-item">
+                <a href="#" class="footer__cont-qr"><img src="img/other/qr-footer-1.png" alt="Img"></a>
+                <div class="footer__cont-name">
+                  <a href="#"><i class="i-tg"></i>Telegram</a>
+                </div>
+              </div>
+              <div class="footer__cont-item">
+                <a href="#" class="footer__cont-qr"><img src="img/other/qr-footer-2.png" alt="Img"></a>
+                <div class="footer__cont-name">
+                  <a href="#"><i class="i-vk"></i>VKontakte</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 order-lg-1">
+            <p class="copyright">© LIVIL, 2009 — 2023. Все материалы данного сайта являются объектами авторского права (в том числе дизайн). Запрещается копирование, распространение (в том числе путём копирования на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без предварительного согласия правообладателя. Cайт не является публичной офертой. Строительная компания «Теремъ» оставляет за собой право изменять цены и условия специальных предложений без предварительного уведомления.</p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Layer -->
+
+  <div class="layer-black"></div>
+
+  <!-- Modal -->
+
+  <div class="modal modal--consultation">
+    <div class="fullScreen flex-center">
+      <div class="modal__box">
+        <button class="close close--modal flex-center">
+          <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 2.33334L27.6667 0L15 12.6667L2.33332 0L0 2.33334L12.6667 15L0 27.6667L2.33332 30L15 17.3333L27.6667 30L30 27.6667L17.3333 15L30 2.33334Z"/>
+          </svg>
+        </button>
+        <i class="modal__img d-none d-lg-block" style="background: url('img/other/modal.png') center 100%/contain no-repeat;"></i>
+        <i class="modal__img d-lg-none" style="background: url('img/other/modal-mob.png') center 100%/contain no-repeat;"></i>
+        <div class="modal__content">
+          <div class="title">
+            <h3>Запрос на консультацию по кредитованию</h3>
+          </div>
+          <form action="#" class="form consultation modal__row row align-items-center">
+            <div class="col-12 col-lg-6"><label class="form__field"><input type="text" required><span class="form__name">Ваше имя</span></label></div>
+            <div class="col-12 col-lg-6"><label class="form__field"><input type="text" class="phone-mask" required><span class="form__name">Номер телефона</span></label></div>
+            <div class="col-12 col-lg-6"><button class="btn btn--big btn--primary flex-center form__btn">Отправить заявку
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.07777 0.329979C3.90777 -0.244021 2.52477 -0.0530208 1.55577 0.819979C0.586773 1.69198 0.249773 3.04798 0.696773 4.27198L4.80277 12.006L0.774773 19.733C0.329773 20.959 0.669773 22.313 1.63977 23.183C2.23777 23.719 2.99177 23.996 3.75477 23.996C4.23177 23.996 4.71277 23.888 5.16177 23.667L24.3938 11.996L5.07777 0.329979ZM3.50077 3.18398C3.49677 3.14598 3.50777 3.09998 3.56277 3.05098C3.62777 2.99298 3.68177 2.99598 3.71977 3.00798L16.1178 10.5H7.39977L3.50077 3.18398ZM3.79977 20.993C3.76077 21.006 3.70677 21.008 3.64377 20.951C3.58777 20.901 3.57777 20.853 3.58177 20.815L7.40877 13.501H16.1398L3.80077 20.993H3.79977Z" fill="#213B48"/>
+              </svg>
+            </button></div>
+            <div class="col-12 col-lg-6"><div class="form__policy">*Нажимая на кнопку «Отправить» вы соглашаетесь с <a href="#">политикой конфиденциальности</a></div></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal modal--success">
+    <div class="fullScreen flex-center">
+      <div class="modal__box">
+        <button class="close close--modal flex-center">
+          <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 2.33334L27.6667 0L15 12.6667L2.33332 0L0 2.33334L12.6667 15L0 27.6667L2.33332 30L15 17.3333L27.6667 30L30 27.6667L17.3333 15L30 2.33334Z"/>
+          </svg>
+        </button>
+        <i class="modal__img d-none d-lg-block" style="background: url('img/other/modal.png') center 100%/contain no-repeat;"></i>
+        <i class="modal__img d-lg-none" style="background: url('img/other/modal-mob.png') center 100%/contain no-repeat;"></i>
+        <div class="modal__content">
+          <div class="title text-center">
+            <h3>Ваша заявка успешно отправлена!</h3>
+          </div>
+          <div class="paragraph paragraph--big text-center">
+            <p>В ближайшем времени с вами свяжется наш менеджер.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--[if lt IE 9]>
+  <script src="libs/html5shiv/es5-shim.min.js"></script>
+  <script src="libs/html5shiv/html5shiv.min.js"></script>
+  <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+  <script src="libs/respond/respond.min.js"></script>
+  <![endif]-->
+  <script src="libs/jquery/jquery-3.4.0.min.js"></script>
+  <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+  <script src="libs/swiper/swiper.min.js"></script>
+  <script src="libs/magnific-popup/jquery.magnific-popup.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

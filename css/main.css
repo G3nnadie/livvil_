@@ -2465,7 +2465,7 @@ body {
   border-radius: 6px;
   padding: 6px 0 2px;
   border: 1px solid #FED269;
-  font-family: 'Zen Dots', sans-serif;
+  /*font-family: 'Zen Dots', sans-serif;*/
 }
 
 .cost__sum strong {
@@ -2970,7 +2970,6 @@ body {
   max-width: 100%;
   line-height: 1.12;
   padding-right: 30px;
-  font-family: 'Zen Dots', sans-serif;
 }
 
 .story__title {
